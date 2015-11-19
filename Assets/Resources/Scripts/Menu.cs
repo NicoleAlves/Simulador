@@ -38,6 +38,13 @@ public class Menu : MonoBehaviour
 			case 1:
 				Application.LoadLevel(0);
 				break;
+			case 2:
+				Application.LoadLevel(0);
+				break;
 		}
+	}
+	public void Change()
+	{
+		Application.LoadLevel(2);
 	}
 }
